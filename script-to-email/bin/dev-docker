@@ -1,0 +1,5 @@
+#!/bin/bash
+
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
+
+docker run -it -v "${SCRIPT_DIR}/../examples/":/scripts -v "${SCRIPT_DIR}/..":/app --rm --entrypoint /bin/bash script-to-email
