@@ -1,0 +1,138 @@
+settings:
+  html: true
+  messy: true
+
+parties:
+  alex:
+    name: Alex Doe
+    email: alex@toycorp.example.com
+    role: Senior Account Executive
+    signature: |
+      Alex Doe | Senior Account Executive
+      alex@toycorp.example.com | 604 555 8445
+      This email may contain privileged information and is to be read only
+      by the intended recipient.
+      If you received this email in error, please do not read the content and
+      report this violation to email-violation@toycorp.example.com
+      Thank you for your cooperation
+
+  sue:
+    name: Sue Smith
+    email: sue@example.com
+    signature: Sent from my iphone
+
+  bill:
+    name: Bill Morden
+    email: bill@toycorp.example.com
+    signature: |
+      Bill Morgen | CEO
+      bill@toycorp.example.com | 778 555 1981
+      
+      This email may contain privileged information and is to be read only
+      by the intended recipient.
+      If you received this email in error, please do not read the content and
+      report this violation to email-violation@example.com
+      Thank you for your cooperation
+
+  production:
+    name: Production Department
+    email: production@toycorp.example.com
+    signature: For internal uses only
+
+  steve:
+    name: Steve Lob
+    email: steve@shadybusiness.example.com
+    signature: |
+      I'll deny ever hearing from you!
+
+threads:
+  - subject: 'Order for Pine model playground set'
+    messages:
+      - date: +2days
+        from: sue
+        to: alex
+        attachments:
+          - mimetype: 'application/pdf'
+            file: './PineCustomization.pdf'
+        embedded_messages:
+          - date: 2022-05-12 1:54pm
+            from: sue
+            message: |
+              Hi there,
+              
+              I'm looking for a childrens playground set, and I saw your catalogue
+              on your website. I'm really interested in the Pine model, would you be
+              able to offer some customizations?
+
+          - date: +1days-3hours
+            from: alex
+            message: |
+              Hi Sue,
+              
+              thank you for reaching out to us. We're certainly able to produce a
+              customized Pine model for you. We do have a customization fee in
+              addition to the actual work hours required to meet your specifications.
+              
+              If you'd like to move forward, you can send us details about your
+              customization request and I will work with our engineering department
+              to create a custom invoice for you.
+              
+              Best,
+              
+              Alex
+          - date: +3days-2hours
+            from: sue
+            message: |
+              Hi Alex,
+              
+              that sounds good to me. I'll talk to my husband and we'll get you some
+              specifics in a bit.
+              
+              Have a great weekend,
+              
+              Sue
+        message: |
+          Hi Alex,
+          
+          please see the attached PDF for details on what we look for in the
+          customization. Can you give us an idea of the cost and when we
+          can expect delivery?
+          
+          Best,
+          
+          Sue
+
+  - subject: Can we produce a Pine?
+    messages:
+      - date: 2022-05-12 2:12pm
+        from: alex
+        to: bill,production
+        message: |
+          Hey Bill,
+          got an order for a Pine model, you think we can get that done this week?
+      - from: bill
+        to: alex
+        date: +1hours
+        message: |
+          No way, we're super-booked. We might be able to fit them in next month
+
+      - from: alex
+        to: bill
+        date: +2hours
+        message: Ok no worries, I'll let her know
+
+  - subject: Got something
+    messages:
+      - date: 2022-05-12 4:17pm
+        from: alex
+        to: steve
+        message: |
+          wantto make some money?
+          i'll pay ya $500 to cobble together a playground set
+
+      - date: +4hours
+        from: steve
+        to: alex
+        message: |
+          for sure, let me knwo what you want and when and i'llhave
+          it done

@@ -1,0 +1,118 @@
+Message-ID: <R1TGW6ZN00U55PBTHPR6P89OIHI48N1CHW5GQK587HH5Z28G@INFRA1.EMAIL.APP.GOODFACT.CO>
+Subject: Can we produce a Pine?
+From: Alex Doe <alex@toycorp.example.com>
+To: Bill Morden <bill@toycorp.example.com>,
+ Production Department <production@toycorp.example.com>
+Content-Type: multipart/alternative;
+ boundary="===============0627444107676169790=="
+Date: Thu, 12 May 2022 14:12:00 -0000
+Received: by 2002:a17:90b:34c:0:0:0:0 with SMTP id fh12csp241259pjb; Tue, 14
+ Jun 2022 10:15:53 (PST)
+X-Google-Smtp-Source:
+ AI65U9A4AJTUDGKSLQOWOEHNDQO6QSY6N02QS8XRXAX6I4CPP624DXPGK0ATJZ6Y8IQIK8WJPIER
+ARC-Seal: i=1; a=rsa-sha256; t=2730717; cv=none;d=google.com; =?utf-8?q?s=3D?=
+ =?utf-8?q?arc-20160816=3Bb=3DT7MQK8H9KRQ2IWCAUIC5NXJBGVZAXHRMVGWVGJ4GLY1QI5?=
+ =?utf-8?q?ZD8G9NYD95448DQWETY4YPFSLG49YCFY1K0RLCF9R6ATE1UW8Z59R1YPYWDDHSZJO?=
+ =?utf-8?q?577O1O6OQALWUTZLD=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; 
+ =?utf-8?q?s=3Darc-20160816=3Bh=3Dmime-version=3Asubject=3Areferences=3Ain-r?=
+ =?utf-8?q?eply-to=3Amessage-id=3Ato=3Afrom=3Adate=3Adkim-signature=3Bbh=3DI?=
+ =?utf-8?q?T56R5JGDXJ2UZ8IS780=3D=3Bb=3D8OCQRJJZCC7O35BPAEJFUZ6GANE8M014YTP8?=
+ =?utf-8?q?TAOZPTJZ8SZSNOJKPLGIO59NOOASQGFHFCVNPLZTFO07L4UN1Y8PYZ0U7B7ZETSJT?=
+ =?utf-8?q?65K8JWIYTHQILT58QBJNY5YU87CNTXXEJM97DAKV1NJ6SLNS66J0THABVX8H7VWMQ?=
+ =?utf-8?q?4BCQHHISNF3V62H8QEX6O3CFITDXTVV8SOWRD0YEFKDDLVI397EGIJ7WL8DH0NTKW?=
+ =?utf-8?q?CP1FPAA0VSZ2XVDWFQ4K5ZXAJ=3D=3D?=
+X-Mailer: WebService/1.1.19797 YMailNorrin
+X-IncomingTopHeaderMarker: =?utf-8?q?OriginalChecksum=3A844D73727AE689FF3C92?=
+ =?utf-8?q?72E149DC8A162DE0376CF0450AEBD1E8B6C80A0D789C=3BUpperCasedChecksum?=
+ =?utf-8?q?=3AE6AB3BB83FE007AB4197C0B8D593F8E753D5CA210CB25CF09BEBFB337F586F?=
+ =?utf-8?q?B4=3BSizeAsReceived=3A6543=3BCount=3A41?=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; =?utf-8?q?d=3Dhotmail?=
+ =?utf-8?q?=2Ecom=3Bs=3Dselector1=3Bh=3DFrom=3ADate=3ASubject=3AMessage-ID?=
+ =?utf-8?q?=3AContent-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3Bbh?=
+ =?utf-8?q?=3D8QBRYATWY3EU3W2POARLABWFH6BFIDK1SRA5E6R62GUYMSJKS8=3Bb=3D8OIQU?=
+ =?utf-8?q?3HFQFRPIZ4XQQFEONW55SPB4L009NUPFX33ZG4WMMS0KR9XVG1AQWF5TR502IOSA9?=
+ =?utf-8?q?RK0OKJB7PGWDT48QN45VBEUS5USD17J534NRYE9VYIZH2OX9C8OMB8R31A7IK86AZ?=
+ =?utf-8?q?SR4DOMI45LAJKVFK3A32SURYFYW2HLJQMG8HO8SMF9PO9DER51928XG6F8KVL6HEQ?=
+ =?utf-8?q?LZJQ1WZSLEIFFRXP5QSVJ7FXCQSN7JNPCCV5BAE5CLLC8CSDJ62OCFDY?=
+X-MS-Exchange-AntiSpam-MessageData-Original-0: =?utf-8?q?CWRZ473BLT5AMOCURAX?=
+ =?utf-8?q?6NF53Q2PF6MIENUSZ1TTK89T5TWG1PV97DA3HKSP42IBDGILYJKMWM8G83XE51N4Q?=
+ =?utf-8?q?V9J8PLKO7C01GW5ADXGMW0JWGJ8U01Q1YWU06PEC3N8WW5G7EUNAJYR1KZZ4M0XFM?=
+ =?utf-8?q?7JAOFQRMV9HGP20KVTJWQMECQK2W7MARL97C7RK3J8GNI6WX22EXX4KVTPRIZH3D7?=
+ =?utf-8?q?FRSA017WSDVWBKMYJNMCRVTPDJRU6I6PK1MSDYK6CEA4RHOYU8US860W8HXTR4CD5?=
+ =?utf-8?q?IGTUP72SS8AHKLFRDSINGGUSGMUVNXFTRN0HQ9CEXS9WOY9OTW8MG8M74R1F4WLZC?=
+ =?utf-8?q?O5U7SKX5N2HHOJMFOHVB6GZP6TWKR6SOTROIIUXLI5AD34MVAA3KI254UC37PH2YH?=
+ =?utf-8?q?6R7FW3BI782FZ8TPE0FHKUQKGVVCQ0AXBS26756HZTY4ZDTREOKP3CZODJ1QRKXFN?=
+ =?utf-8?q?UGHVJCJ9IC8MO7PHFN5URG411QTTUVYXG5JHYO?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped:
+ ZAEIXV0XWP8I10RHE624QDKDOKRESSL8
+X-MS-Exchange-Organization-ExpirationStartTime: 2022-06-14T10:15:53.670735
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2SIZET8IVOT74QC4IP7ZL4L3M4MGLHCZ
+X-Message-Info: 5ITKQI2KM0SY1YU4NKIUP6N02RC0ENVRU8R8G2S7T41JRFB93F
+X-Message-Delivery: Q115MCC7OT1QJLPTHXKRW7IER2HGVAJ1
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?YV2V37ZFTFKGQIYUXUJ98PH55GJD90Y?=
+ =?utf-8?q?056HP9PWBKHCWBSD93B7ZWAB0RLDDN2VKZ3CLECGCMZ9NOUUPB3FRRONCCGT10UU1?=
+ =?utf-8?q?9VL6MGXIMPU5CDIQNMAQMXQ53M4D5KCERRPLRP94V04X5TH1RYY4Q6BM8N7FEE5WN?=
+ =?utf-8?q?JDLWG1WEFJL583CNL59QI2ZZ7YZ7PRRZLXTI6LMT1MM03SAH4I58X5QBO464JHYVG?=
+ =?utf-8?q?0VO5Y5CI2M77FI52IJ5HPE4FA616RXC9QMYYOZXOXWNYEVRRTWEURWDKELF692S02?=
+ =?utf-8?q?B9JI5HIBWOTMR8SRJQ03P9MG4LGBBYYQDIWHPMEMA4LCISRBYJXVDDXJAMB7GHSFX?=
+ =?utf-8?q?GUYX0MSJPRRCBYUHCYBRJS32XHVP2CS1ES15VFCXXQSSTRE8MVHD3O05VDV5H5PLA?=
+ =?utf-8?q?GQK59COFCOLIXK7HLYQNQUDO2ZDPEEA1R8P1X4O9T2DKBSLPUAOVNID395BA763LT?=
+ =?utf-8?q?UQUANMZ6RPI7ZDSE9Y8YFU4T2L?=
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0401855
+
+--===============0627444107676169790==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Hey Bill,
+got an order for a Pine model, you think we can get that done this week?
+
+--
+Alex Doe | Senior Account Executive
+alex@toycorp.example.com | 604 555 8445
+This email may contain privileged information and is to be read only
+by the intended recipient.
+If you received this email in error, please do not read the content and
+report this violation to email-violation@toycorp.example.com
+Thank you for your cooperation
+
+--===============0627444107676169790==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Hey Bill,
+got an order for a Pine model, you think we can get that done this week?
+</p>
+<br />
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit"><span data-attr-gen=3D"p=
+rocessed"; style=3D"display: inline; white-space: pre; text-align: left; font=
+-size: 12px; font-weight: normal">Alex Doe | Senior Account Executive</span><=
+br /><span data-attr-gen=3D"processed"; style=3D"display: inline; white-space=
+: pre; text-align: left; font-size: 12px; font-weight: normal">alex@toycorp.e=
+xample.com | 604 555 8445</span><br /><span data-attr-gen=3D"processed"; styl=
+e=3D"display: inline; white-space: pre; text-align: left; font-size: 12px; fo=
+nt-weight: normal">This email may contain privileged information and is to be=
+ read only</span><br /><span data-attr-gen=3D"processed"; style=3D"display: i=
+nline; white-space: pre; text-align: left; font-size: 12px; font-weight: norm=
+al">by the intended recipient.</span><br /><span data-attr-gen=3D"processed";=
+ style=3D"display: inline; white-space: pre; text-align: left; font-size: 12p=
+x; font-weight: normal">If you received this email in error, please do not re=
+ad the content and</span><br /><span data-attr-gen=3D"processed"; style=3D"di=
+splay: inline; white-space: pre; text-align: left; font-size: 12px; font-weig=
+ht: normal">report this violation to email-violation@toycorp.example.com</spa=
+n><br /><span data-attr-gen=3D"processed"; style=3D"display: inline; white-sp=
+ace: pre; text-align: left; font-size: 12px; font-weight: normal">Thank you f=
+or your cooperation</span></p>
+
+--===============0627444107676169790==--

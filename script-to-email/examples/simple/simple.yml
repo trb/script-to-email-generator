@@ -1,0 +1,60 @@
+settings:
+  messy: true
+  html: true
+
+parties:
+  jack:
+    name: Jack Smith
+    email: jack@example.com
+
+  jane:
+    name: Jane Doe
+    email: jane@example.com
+
+  restaurant:
+    name: Cavern on the Green
+    email: cavernonthegreen@example.com
+
+threads:
+  - subject: Dinner tonight?
+    messages:
+      - from: jack
+        to: jane
+        # rename to previous_messages or embedded_messages or something
+        embedded_messages:
+          - message: Hi Jack, want to do dinner tonight?
+            from: jane
+          - message: Sure, where should we meet?
+            from: jack
+            date: +5minutes
+          - message: Pick me up and then Outback Steakhouse?
+            from: jane
+            date: +3minutes
+        message: Sure, sounds great. I'll pick you up at eight
+        date: +2minutes
+      - from: jane
+        to: jack
+        date: +2hours
+        message: Thanks for the great evening, it was nice hanging out :)
+      - from: jack
+        to: jane
+        date: +2hours
+        message: Always :) I had a great time too
+      - from: jack
+        to: jane
+        date: +2days
+        message: Want to get dinner again tonight?
+
+  - subject: Reservation for tonight
+    messages:
+      - date: +3days
+        from: jack
+        to: restaurant
+        message: |
+          Hi there,
+          
+          I'd like to make a reservation for two for tonight at 8pm, do you have a table available?
+          
+          Best,
+          
+          Jack
