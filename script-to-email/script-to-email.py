@@ -36,15 +36,15 @@ def handle_file(file: str):
     return generator.generate_emails()
 
 
-if os.path.isfile(args.scripts):
-    eml_files = handle_file(args.scripts)
+def generate_file(file: str):
+    eml_files = handle_file(file)
 
     if args.output:
         output = args.output
     else:
-        output = os.path.dirname(args.scripts)
+        output = os.path.dirname(file)
 
-    name_pattern = os.path.basename(args.scripts)
+    name_pattern = os.path.basename(file)
     name_pattern = name_pattern.split(".")[0:-1]
     name_pattern = ".".join(name_pattern)
     name_pattern = "{}.{}.eml".format(name_pattern, "{}")
@@ -53,8 +53,15 @@ if os.path.isfile(args.scripts):
         with open(os.path.join(output, name), "wb") as output_file:
             output_file.write(eml_file.as_bytes())
 
+
+if os.path.isfile(args.scripts):
+    generate_file(args.scripts)
+
 if os.path.isdir(args.scripts):
     root_dir = os.path.dirname(args.scripts)
     for root, dirs, files in os.walk(args.scripts):
         yaml_files = [file for file in files if file.endswith(".yml")]
         print("yaml files", root_dir, root, yaml_files)
+        for file in yaml_files:
+            print('generating file {}'.format(os.path.join(root, file)))
+            generate_file('{}'.format(os.path.join(root, file)))
