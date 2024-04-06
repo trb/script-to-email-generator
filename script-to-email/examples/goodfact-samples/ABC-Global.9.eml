@@ -1,0 +1,44 @@
+Message-ID: <HBK5Q66WW5SRBID99DVDBNGHBK2TCVUC2BQU0HYLPJGBNGYO@INFRA1.EMAIL.APP.GOODFACT.CO>
+Subject: ACME-ABC Agreement and Documents
+From: Shawn Fine <ShawnFine@example.com>
+To: Barbara <Barbara@Acme.ca>
+Content-Type: multipart/alternative;
+ boundary="===============7387737477956030454=="
+Date: Mon, 29 May 2017 14:27:00 -0000
+
+--===============7387737477956030454==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Barbara =E2=80=93
+Thank you for the signed Sales Order and welcome to the ABC family.
+Joe has evaluated the additional reports and has commented that they are depo=
+sit and EFT files. I will have the services team contact you to begin the imp=
+lementation process. Thank you for your business and we look forward to our p=
+artnership.
+Best,
+
+--
+Shawn Fine
+EVP, Global Sales
+ABC
+
+--===============7387737477956030454==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Barbara =E2=80=93
+Thank you for the signed Sales Order and welcome to the ABC family.
+Joe has evaluated the additional reports and has commented that they are depo=
+sit and EFT files. I will have the services team contact you to begin the imp=
+lementation process. Thank you for your business and we look forward to our p=
+artnership.
+Best,
+</p>
+<br />
+<p><span>Shawn Fine</span><br /><span>EVP, Global Sales</span><br /><span>ABC=
+</span></p>
+
+--===============7387737477956030454==--

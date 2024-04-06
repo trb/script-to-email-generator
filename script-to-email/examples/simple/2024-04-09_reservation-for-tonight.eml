@@ -1,0 +1,98 @@
+Message-ID: <I9YU4OPJQEBPY0GXCZLPGPKEAKYFKH3D7D9O77KQH0BXDBU8@INFRA1.EMAIL.APP.GOODFACT.CO>
+Subject: Reservation for tonight
+From: Jack Smith <jack@example.com>
+To: Cavern on the Green <cavernonthegreen@example.com>
+Content-Type: multipart/alternative;
+ boundary="===============0733778023174209558=="
+Date: Tue, 09 Apr 2024 21:34:36 -0000
+Received: by 2002:a17:90b:34c:0:0:0:0 with SMTP id fh12csp241259pjb; Sat, 06
+ Apr 2024 21:34:36 (PST)
+X-Google-Smtp-Source:
+ 9WZKMM68OHPSFCXMCR558NSOKBI8TT1BRCDIYGBO1ROMJQCHTHZ2M2GVIVHGXTY6CL9WSBYPD3ZE
+ARC-Seal: i=1; a=rsa-sha256; t=2829271; cv=none;d=google.com; =?utf-8?q?s=3D?=
+ =?utf-8?q?arc-20160816=3Bb=3DOELEUO1584VTYCB8FX82SC8LAN6JSMP63Z62H7LOK6JWVF?=
+ =?utf-8?q?3AL6NHSUCITRFIJCIM1N414G5W1PGXUA5QGXHHD3006HOO0X0FX6IC6D5M2X3DD8L?=
+ =?utf-8?q?89Q3KLL7G3JG5CV3X=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; 
+ =?utf-8?q?s=3Darc-20160816=3Bh=3Dmime-version=3Asubject=3Areferences=3Ain-r?=
+ =?utf-8?q?eply-to=3Amessage-id=3Ato=3Afrom=3Adate=3Adkim-signature=3Bbh=3D5?=
+ =?utf-8?q?2F748X66K6YWZZQQ9IE=3D=3Bb=3DHYCQX8JM1LDKH27TDMNNRH9I8ZCN0QEDB0RG?=
+ =?utf-8?q?OCI625EOVHA57DBB0Q9L1IOHYGCLZ9V5IP236AJKIJH9TNN3G2DTEODHYOWVPHJ4W?=
+ =?utf-8?q?U99FZM76AC3ER10H7TCMTTA3GDDR2IY9Y01BNTP8CIFTH67LE9STNAIT3ENV9Y719?=
+ =?utf-8?q?KODMO7PJ6RFHMRWQ9R7GAB1D09H9CBSRPVCO7J0HG8T3SXTVWH0FZ2KRPEK3YOZ32?=
+ =?utf-8?q?C1JJYR85R4UMTRPI2D0NRTEW5=3D=3D?=
+X-Mailer: WebService/1.1.19797 YMailNorrin
+X-IncomingTopHeaderMarker: =?utf-8?q?OriginalChecksum=3A844D73727AE689FF3C92?=
+ =?utf-8?q?72E149DC8A162DE0376CF0450AEBD1E8B6C80A0D789C=3BUpperCasedChecksum?=
+ =?utf-8?q?=3AE6AB3BB83FE007AB4197C0B8D593F8E753D5CA210CB25CF09BEBFB337F586F?=
+ =?utf-8?q?B4=3BSizeAsReceived=3A6543=3BCount=3A41?=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; =?utf-8?q?d=3Dhotmail?=
+ =?utf-8?q?=2Ecom=3Bs=3Dselector1=3Bh=3DFrom=3ADate=3ASubject=3AMessage-ID?=
+ =?utf-8?q?=3AContent-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3Bbh?=
+ =?utf-8?q?=3D7FI3RRVM2NASUPAP8HG6NC2KMPTPO9Y00W86OR80T9AWA4SXTR=3Bb=3D769TY?=
+ =?utf-8?q?UF2Y2WZ9JSPEIXGPND1PN11QN2LVNZIFY777H0X364MIMO9JQCHYWCBWDLP03PS3L?=
+ =?utf-8?q?5ZC07XI8T4DKFLBYSII2S6PGSDEXGT5PFETG8JKME2KKUN68XCZA1K8GGJ1QQ0FYQ?=
+ =?utf-8?q?1XLQY6BUDZZ1O3MA20Z8VTWN87O8H8ZSQJCJHFKR4R9ICZJDSAOG96D9SW8V8ZLOI?=
+ =?utf-8?q?S7GM7KI5IQZ96BFZBFZ3WQY4P42HMTY6YUTA2O7XZDG2NFMWJ9WPI862?=
+X-MS-Exchange-AntiSpam-MessageData-Original-0: =?utf-8?q?MQKQJ69RAV008UF0ORM?=
+ =?utf-8?q?K501JSXVI8NOKY1152R1U2M5YC4OFOIAPIRYV125V76GGKK7C8XGKCN87NEDLGHA8?=
+ =?utf-8?q?C9G6JUUCN2969MEGALIW8DSBVJ4SG4IJ7H0LRD7L5KIC136Q4YVFIR1N9Y6HWCHX5?=
+ =?utf-8?q?3SKELYZANKH1JG707614VSC9HAFA9ZNCE2T9U1NZ5Y9292OYVAT6SFKFMROHPFFBZ?=
+ =?utf-8?q?FYGHYLLXQCF938Q4TPVHP1GHOHAO0C8TZLIEXSVTT47Y6UGUE99K8SF4HCJEKR81E?=
+ =?utf-8?q?FV3MCNTHBQY6NO0NXB7QVU2PXWQFWCIL2BBTMTW6PUV14RBFVUCD8L2DR12TF6LFA?=
+ =?utf-8?q?G4RYUXZD6CKZY4XEHV3VISZQK9MG1JQXNDD4CE5YEOF78Z1DVYXJZBODFG2VS891R?=
+ =?utf-8?q?JET37Q6QIXC737H1BQCUE8NDI0A5OS5RX764ICWXLIQUMKX1AXG8S3MGJUQP23VQQ?=
+ =?utf-8?q?3QO107LA30KL4RLYF6NZ2JQO0K6I14IHV3RXKC?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped:
+ UHFL34P5T2Y823IR7M6124Z70FR2ER8Y
+X-MS-Exchange-Organization-ExpirationStartTime: 2024-04-06T21:34:36.528572
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 9IHWXLXAMI9ZFJKP61XCFRMEAT1ZZRR6
+X-Message-Info: DH5OIBWMBONZW350JWAQ5BKNPCCD2K1BHMZQ554RDXHHR0BAVP
+X-Message-Delivery: QQEH6QI6RBXW1U56KKLXD0O6K4YEC0JG
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?5YGDKNDKSABRQ89XPXM54XZS632KK22?=
+ =?utf-8?q?OGWYYN03YPK02SP17I8ZPFWNKEYQHZ9AQ97DJYP48TRLULIS29P9P1T3L2UEFLS9U?=
+ =?utf-8?q?6N07UCVNM2XV3AZL4PNAKXQ7YACJ1Q9QLFUUPRLOHZP1WQ8WPT51L3B5Q8CLG86OX?=
+ =?utf-8?q?WSG59RFB3V9UY06GC62O69UC5V1AYEUFGTOHPE19P9NCMLRY1NGIHFOGMHFNTHC1D?=
+ =?utf-8?q?B85N4R65OJ3YPWU21MDVYZ8R2HUV96YUGLETPAKJ4RW386K62KM9XYHQ6K0O5XT41?=
+ =?utf-8?q?F6BSU71KX80PE1M0EC6TIG6TI66JBL5CG7WJQOMIXCE4DH4QM1ZNV99Y1ZOLEXGX9?=
+ =?utf-8?q?HBR4UU5XT724D96IL8PAOUB9LMZ8P1J3LP50AMANEZGQHFR219F2LZP4LXW18D5LJ?=
+ =?utf-8?q?IV752R5PM9J5DPP0AKOQCR01VOD0N74N7BL5KRS6TP84ZKJ9HKCKIYTQM0IAE7TA5?=
+ =?utf-8?q?K5MZ9W1LGXLOUOEA5ZJZRTB7U8?=
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0401855
+
+--===============0733778023174209558==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi there,
+
+I'd like to make a reservation for two for tonight at 8pm, do you have a tabl=
+e available?
+
+Best,
+
+Jack
+
+--===============0733778023174209558==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Hi there,</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">I'd like to make a reser=
+vation for two for tonight at 8pm, do you have a table available?</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Best,</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Jack</p>
+
+--===============0733778023174209558==--

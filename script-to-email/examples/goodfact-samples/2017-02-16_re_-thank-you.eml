@@ -1,0 +1,101 @@
+Message-ID: <GO6O92I4C3C6UDMZ4YA8P89T31TEQVJ5MRZJK9H0G8E6ZLST@INFRA1.EMAIL.APP.GOODFACT.CO>
+Subject: RE: Thank you
+From: John Smith <John.Smith@ABCglobal.com>
+To: Clive Robertson <Clive.Robertson@ABCglobal.com>
+Content-Type: multipart/alternative;
+ boundary="===============3505411908650763757=="
+Date: Thu, 16 Feb 2017 10:46:00 -0000
+
+--===============3505411908650763757==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi Clive,
+I talked again with Barbara this week. She again said that she likes our syst=
+em and would like to work with us. In the beginning she will just have 5 user=
+s, during the first year increasing to 10. Her company ACME is providing widg=
+ets services for small size companies in Canada using her own in-house system=
+. Currently ACME has approximately 400 client companies with total about 15,0=
+00 employees. ACME client companies are submitting requests by email, mail, p=
+hone or online. Currently no more than 5% of ACME clients need online access =
+to the system for entering the requests and viewing the reports. During the m=
+eeting with Barbara at ABC on January 30 with Joe, Andy and yourself we didn=
+=E2=80=99t see any problems that would prevent our system to provide what ACM=
+E needs. There will be some customisation required: dashboard providing the o=
+verview of the payrun status for all ACME clients. We also need to resolve li=
+censing for those ACME clients who will require online access (very limited =
+=E2=80=93 some reports, timesheet entry and maybe limited employee maintenanc=
+e). I discussed this with Gord and he was going to talk about the licensing f=
+ees with Shawn and with you. Security is a big concern for ACME, but the ABC =
+system should be able to handle the security requirements. Regarding Go-Live:=
+ ACME does not plan to start with all clients right away, initially starting =
+with no more than 10 clients. I think that our contract with ACME should incl=
+ude the following:
+  =E2=80=A2 Modules:
+    =E2=97=A6 Widgets
+    =E2=97=A6 General Ledger
+  =E2=80=A2 ACME Users
+  =E2=97=A6 5 users
+  =E2=80=A2 Client Users
+  =E2=97=A6 ??? =E2=80=93 this is where we need to determine the licensing an=
+d prices
+  =E2=97=A6 Maybe we can say something like this: =E2=80=9CThe customer has t=
+he option to purchase additional =E2=80=9Cclient user=E2=80=9D licenses at th=
+e =E2=80=9C???=E2=80=9D price
+  =E2=80=A2 Software modification
+  =E2=97=A6 Customized Dashboard
+
+ACME contact information:
+
+--
+John Smith
+Project Manager
+ABC
+
+--===============3505411908650763757==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p>Hi Clive,
+I talked again with Barbara this week. She again said that she likes our syst=
+em and would like to work with us. In the beginning she will just have 5 user=
+s, during the first year increasing to 10. Her company ACME is providing widg=
+ets services for small size companies in Canada using her own in-house system=
+. Currently ACME has approximately 400 client companies with total about 15,0=
+00 employees. ACME client companies are submitting requests by email, mail, p=
+hone or online. Currently no more than 5% of ACME clients need online access =
+to the system for entering the requests and viewing the reports. During the m=
+eeting with Barbara at ABC on January 30 with Joe, Andy and yourself we didn=
+=E2=80=99t see any problems that would prevent our system to provide what ACM=
+E needs. There will be some customisation required: dashboard providing the o=
+verview of the payrun status for all ACME clients. We also need to resolve li=
+censing for those ACME clients who will require online access (very limited =
+=E2=80=93 some reports, timesheet entry and maybe limited employee maintenanc=
+e). I discussed this with Gord and he was going to talk about the licensing f=
+ees with Shawn and with you. Security is a big concern for ACME, but the ABC =
+system should be able to handle the security requirements. Regarding Go-Live:=
+ ACME does not plan to start with all clients right away, initially starting =
+with no more than 10 clients. I think that our contract with ACME should incl=
+ude the following:
+  =E2=80=A2 Modules:
+    =E2=97=A6 Widgets
+    =E2=97=A6 General Ledger
+  =E2=80=A2 ACME Users
+  =E2=97=A6 5 users
+  =E2=80=A2 Client Users
+  =E2=97=A6 ??? =E2=80=93 this is where we need to determine the licensing an=
+d prices
+  =E2=97=A6 Maybe we can say something like this: =E2=80=9CThe customer has t=
+he option to purchase additional =E2=80=9Cclient user=E2=80=9D licenses at th=
+e =E2=80=9C???=E2=80=9D price
+  =E2=80=A2 Software modification
+  =E2=97=A6 Customized Dashboard</p>
+<p>ACME contact information:
+</p>
+<br />
+<p><span>John Smith</span><br /><span>Project Manager</span><br /><span>ABC</=
+span></p>
+
+--===============3505411908650763757==--

@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Determine the script directory
 SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
-docker run -it -v "${SCRIPT_DIR}/../examples/":/scripts -v "${SCRIPT_DIR}/..":/app --rm --entrypoint /bin/bash script-to-email
+# Check if an argument is provided and set the mount path for /scripts accordingly
+if [ -z "$1" ]; then
+    # No argument provided, use the default path
+    SCRIPTS_MOUNT="${SCRIPT_DIR}/../examples/"
+else
+    # Argument provided, use it as the path
+    SCRIPTS_MOUNT="$(realpath $1)"
+fi
+
+# Run the Docker container with the conditional mount path for /scripts
+docker run -it -v "${SCRIPTS_MOUNT}:/scripts" -v "${SCRIPT_DIR}/..":/app --rm --entrypoint /bin/bash script-to-email

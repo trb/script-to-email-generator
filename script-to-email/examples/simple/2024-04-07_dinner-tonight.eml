@@ -1,0 +1,122 @@
+Message-ID: <TM9R61I8LB5T01LASVA21TVCLQYIECJWNZFQ12TDY29GINUU@INFRA1.EMAIL.APP.GOODFACT.CO>
+Subject: Dinner tonight?
+From: Jack Smith <jack@example.com>
+To: Jane Doe <jane@example.com>
+Content-Type: multipart/alternative;
+ boundary="===============5855669681039937932=="
+Date: Sun, 07 Apr 2024 21:44:36 -0000
+Received: by 2002:a17:90b:34c:0:0:0:0 with SMTP id fh12csp241259pjb; Sat, 06
+ Apr 2024 21:34:36 (PST)
+X-Google-Smtp-Source:
+ GJ2OO4T06EUH8N17MHPSRKEDB0SWCXI0C0ACHGP1GM6C42G0RK3E52MOONI66DP9JC1ENZLZ54FX
+ARC-Seal: i=1; a=rsa-sha256; t=6333517; cv=none;d=google.com; =?utf-8?q?s=3D?=
+ =?utf-8?q?arc-20160816=3Bb=3DAVL2EZTT9VA54TBYKSCI1JX4UQNY33LDH1P2PI2Z1078P6?=
+ =?utf-8?q?7Q2NDEME4F6BHIG8FZM914Q0G8IZH9WDHQZIXB5URAB6F11BFRKDAA9EYRLTXUP0F?=
+ =?utf-8?q?79V8NUCWFCQVYVE52=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; 
+ =?utf-8?q?s=3Darc-20160816=3Bh=3Dmime-version=3Asubject=3Areferences=3Ain-r?=
+ =?utf-8?q?eply-to=3Amessage-id=3Ato=3Afrom=3Adate=3Adkim-signature=3Bbh=3DV?=
+ =?utf-8?q?Z9RYMYDHGBAJVM3FZYH=3D=3Bb=3DPS1ZZ4Q2ROOF32GLK5B90EBFOFFCPNZHOOO5?=
+ =?utf-8?q?UTBMECY54AT08LNB92NKNVT0D2I2T7MUC2RZUW1AFQ1G7BXPZ9M0QZTTN74B5CZ32?=
+ =?utf-8?q?K6N10B4SQ3RCFSNWAZYMW7IZOCQV1C27HQICWP7PHI7010NQ7K64AGMEEWN2EB7M9?=
+ =?utf-8?q?1ABF0Z4S1Y76J9VOWN87QDS91JEZFIYPHR3UJC44HN3FIY9R30YAUE8PR4CM88T7R?=
+ =?utf-8?q?6RQNHGUO6PTH108ITBQQZ4ICY=3D=3D?=
+X-Mailer: WebService/1.1.19797 YMailNorrin
+X-IncomingTopHeaderMarker: =?utf-8?q?OriginalChecksum=3A844D73727AE689FF3C92?=
+ =?utf-8?q?72E149DC8A162DE0376CF0450AEBD1E8B6C80A0D789C=3BUpperCasedChecksum?=
+ =?utf-8?q?=3AE6AB3BB83FE007AB4197C0B8D593F8E753D5CA210CB25CF09BEBFB337F586F?=
+ =?utf-8?q?B4=3BSizeAsReceived=3A6543=3BCount=3A41?=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; =?utf-8?q?d=3Dhotmail?=
+ =?utf-8?q?=2Ecom=3Bs=3Dselector1=3Bh=3DFrom=3ADate=3ASubject=3AMessage-ID?=
+ =?utf-8?q?=3AContent-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3Bbh?=
+ =?utf-8?q?=3D9X5E7GZ51CNZC0VSM5N6BN32C8MT5Z8X6HDSABKJIEJ9FTUKLA=3Bb=3DY0P1C?=
+ =?utf-8?q?B1DABV0ZUGHQFO4JKEE1750YK958F92DXK4OTXO8BGNQS761ZL4XGPWH5A4AC1S3D?=
+ =?utf-8?q?99X8TC6IPTXANXPFH9OA1VRP77P9GO6TUBXZFFTI28ZHFCWJZ3O3HW9X23GF36QLT?=
+ =?utf-8?q?I0VZEAWUF19WEHC56LLINPL0FMDTYAS4P5N105J1LJR9HUOJUHG7J82WCN60QHOXI?=
+ =?utf-8?q?67F3XNHHXSKL0U6294S3B73W9PE1GNDIA2Z1R90EWO420O4WNMQN0JU7?=
+X-MS-Exchange-AntiSpam-MessageData-Original-0: =?utf-8?q?DCX3NHEN4PIXLQP7O7C?=
+ =?utf-8?q?N6YUFIDWM4QMWHPN4H4ROHKBG6567L7NZOBGI0FOCPNSIFTYXZ4KUSJ5CIQ8AOU1W?=
+ =?utf-8?q?UGEI5BN7OR0AUY2COISTNJJZ9RMRIMNPFOHQKYA66UA4OLCSDE5K27APTXWSCPW0T?=
+ =?utf-8?q?7XGJ8L3MGGNYKMBGM3K3503ZSIT39DT4TGZTGDVFYFDQ8IGYDIIGCSOW15YDHQ6O1?=
+ =?utf-8?q?RYC895J3ZVS77IIACGGQJIHQECNRAM9ZQKB98IR86P7U16LTRVEMTATBGSMJ544II?=
+ =?utf-8?q?EH7W1MRROZR61SIIGQTQMT5KD9WRKGJ2460JPWTRP4VRPM93Z8S9OOU085EZF69PJ?=
+ =?utf-8?q?1P5HYT9VIZ0O1Q9MWJIAZFWKMWB14CP7T1R0UTYV1DTZE0V2CFJQBI6BL411BIAVJ?=
+ =?utf-8?q?DW641CLT45KAOONG4BCN0HORYXO2JQ4YC684PB3H913GOIIIKQ70TC3T7S7TE1WS8?=
+ =?utf-8?q?IQRKXNE6I8Y9VJPT30ABOUB30BUPX4OBCLIW9S?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped:
+ 5PUZPH0ISF0CN13G571CYKK2VBJLUOW9
+X-MS-Exchange-Organization-ExpirationStartTime: 2024-04-06T21:34:36.523026
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 25X4TVC2J5L1CFB7GDBUBYAG3TOM0GPO
+X-Message-Info: IXG5140TEDK7JOB1RX1JYGZ23QQYJCX8BJ1BUQC3KAXKXJH322
+X-Message-Delivery: A30ZYES36ZZJTOB9FGSUCH1GER4BPD30
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?R1I60Q0X191DN82HJUKITUQP0JT5895?=
+ =?utf-8?q?G0F2EQIF3ANH5I2GIZNYF8OWJL7G3ZG88LMYD9RTA401WPNE838N9YLPMBV93JASL?=
+ =?utf-8?q?HND8ISH44AYJJTIMRMRVTHFY7PVCCQSH9F6FGN5AJW8LSRHO16S9S351SFZG2PQMA?=
+ =?utf-8?q?XIRMGOUVABODTXOSJGWSHDKB89785B9TMXSTDLIUOQZ7ELUM5Q5ABOU0MQ4SW28W7?=
+ =?utf-8?q?VUS8ITTTXA06KRQ1S69X3HW5WHPQ6K8L3W39SVHN6XGV58Y59M7E5A82YIWH19W73?=
+ =?utf-8?q?0VP8WJ021C1O6J4Y5JL3O5HR522UPXYTOMYPG15DAUOLILQU6VSS35TL72VDKR1N1?=
+ =?utf-8?q?NAYOUG1CWWCAE8CQTZ34G2PKZUBR1JPRKAD0KNPB3UI80PR44FN3THGA1C1Y5SJHU?=
+ =?utf-8?q?ZIFQWFWEHVCICQTCE8TOH4NMVAAJ1TPRNUJHG859QJDYV9F8TL4IJWMPZFG6KTH3D?=
+ =?utf-8?q?ANE93S7I4D786B3RL2WW419WJC?=
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0401855
+
+--===============5855669681039937932==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Sure, sounds great. I'll pick you up at eight
+
+ On Sun, Apr 07, 2024 at 09:42 PM Jane Doe <jane@example.com> wrote:
+> Pick me up and then Outback Steakhouse?
+
+> On Sun, Apr 07, 2024 at 09:39 PM Jack Smith <jack@example.com> wrote:
+>> Sure, where should we meet?
+
+>> On Sun, Apr 07, 2024 at 09:34 PM Jane Doe <jane@example.com> wrote:
+>>> Hi Jack, want to do dinner tonight?
+
+--===============5855669681039937932==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<div style=3D"width: 520px;"><p data-attr-gen=3D"invalid"; style=3D"display: =
+block; white-space: pre; text-align: left; font-size: 14px; font-weight: inhe=
+rit">Sure, sounds great. I'll pick you up at eight</p><br /><br /><div style=
+=3D"border-left: 3px grey solid; padding-left: 5px; font-size: 14px; font-wei=
+ght: normal; display: block; cursor: inherit; background-position: center"><p=
+ style=3D"white-space: pre; text-align: left, font-family: sans; font-size: 1=
+4px; background-color: inherit; cursor: inherit">On Sun, Apr 07, 2024 at 09:4=
+2 PM Jane Doe <jane@example.com> wrote:<br /></p><p data-attr-gen=3D"invalid"=
+; style=3D"display: block; white-space: pre; text-align: left; font-size: 14p=
+x; font-weight: inherit">Pick me up and then Outback Steakhouse?</p></div><di=
+v style=3D"border-left: 3px grey solid; padding-left: 5px; font-size: 14px; f=
+ont-weight: normal; display: block; cursor: inherit; background-position: cen=
+ter"><div style=3D"border-left: 3px grey solid; padding-left: 5px; font-size:=
+ 14px; font-weight: normal; display: block; cursor: inherit; background-posit=
+ion: center"><p style=3D"white-space: pre; text-align: left, font-family: san=
+s; font-size: 14px; background-color: inherit; cursor: inherit">On Sun, Apr 0=
+7, 2024 at 09:39 PM Jack Smith <jack@example.com> wrote:<br /></p><p data-att=
+r-gen=3D"invalid"; style=3D"display: block; white-space: pre; text-align: lef=
+t; font-size: 14px; font-weight: inherit">Sure, where should we meet?</p></di=
+v></div><div style=3D"border-left: 3px grey solid; padding-left: 5px; font-si=
+ze: 14px; font-weight: normal; display: block; cursor: inherit; background-po=
+sition: center"><div style=3D"border-left: 3px grey solid; padding-left: 5px;=
+ font-size: 14px; font-weight: normal; display: block; cursor: inherit; backg=
+round-position: center"><div style=3D"border-left: 3px grey solid; padding-le=
+ft: 5px; font-size: 14px; font-weight: normal; display: block; cursor: inheri=
+t; background-position: center"><p style=3D"white-space: pre; text-align: lef=
+t, font-family: sans; font-size: 14px; background-color: inherit; cursor: inh=
+erit">On Sun, Apr 07, 2024 at 09:34 PM Jane Doe <jane@example.com> wrote:<br =
+/></p><p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre=
+; text-align: left; font-size: 14px; font-weight: inherit">Hi Jack, want to d=
+o dinner tonight?</p></div></div></div></div>
+
+--===============5855669681039937932==--

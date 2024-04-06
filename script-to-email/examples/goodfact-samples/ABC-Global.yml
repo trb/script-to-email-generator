@@ -1,0 +1,186 @@
+settings:
+  messy: false
+
+parties:
+    john:
+      name: John Smith
+      email: John.Smith@ABCglobal.com
+      role: Project Manager
+      signature: |
+        John Smith
+        Project Manager
+        ABC
+
+    clive:
+      name: Clive Robertson
+      email: Clive.Robertson@ABCglobal.com
+
+    barbara:
+      name: Barbara
+      email: Barbara@Acme.ca
+
+    shawn:
+      name: Shawn Fine
+      email: ShawnFine@example.com
+      signature: |
+        Shawn Fine
+        EVP, Global Sales
+        ABC
+
+    matt:
+      name: matthew Jones
+      email: MatthewJones@example.com
+
+    gord:
+      name: Gord Brant
+      email: GordBrant@example.com
+
+threads:
+  - subject: New company interested in Widgets part of the system
+    messages:
+      - date: 2016-12-15 1:13pm
+        from: john
+        to: clive
+        message: |
+          Hi Clive,
+          I have a company interested in the Widgets part of our cloud software.
+          It is company processing widgets for their client companies (they have hundreds of clients).
+          I met with the owner and I think that our International Widgets will do what they need. Initially it looks like they would need around 10 users.
+          The company is in Calgary. The owner would like to have a meeting with us to discuss the contract at Thursday/Friday this or next week.
+          I am in the office now – extension 283, or my cell -. Please email me or call me so we can discuss this.
+          Thank you
+          John
+
+      - date: 2016-12-28 3:31pm
+        from: clive
+        to: john
+        message: |
+          Hi John,
+          The meeting did not go well because she was extremely belligerent to Ryan and Janet. Her behavior was completely inappropriate and borderline abusive, so before we decide on any course of action he needs to calm down and follow our appropriate sales cycle. We don’t have the expertise in the Solutions group to study his widgets requirements, it will have to be someone who actually implements the system to let us know if we can accommodate his requirements. I would imagine either Melissa or Andy could make that determination. Once someone has completed that assessment and has told us our system can handle it the process will be as follows,
+          1. We will have a call to determine his user count in order to give her the appropriate proposal.
+          2. Upon approval of the software and implementation estimate we will then do a demonstration of our solution at ABC’s office and discuss any potential
+          customization. In the event we need to bring in a consultant to discuss specifics it will be a lot easier if we’re at the office.
+          I’m out of the office on vacation until January 9th. I suggest you see who can take a look at the document to determine if we can handle it. Let me know who that
+          is and I’ll coordinate with them when I get back from my vacation.
+          Thanks,
+          Clive Robertson
+
+      - date: 2017-01-11 11:53am
+        from: john
+        to: clive
+        message: |
+          Clive/Andy
+          I would like to write a short email summarizing where we are with this potential customer:
+          I had a short meeting with Andy and it looks like we should be able to meet the ACME company requirements for the Widgets system. Andy will be able to make a presentation to Barbara in our office. I talked to Barbara and informed her that we can meet his requirements. Now we need to schedule the date. I am traveling a lot during January and I will be in the office on these days only:
+            January 19 morning
+            January 25 morning
+            January 30 all day
+            February 6-10 … looks like I am in the office all week. I told Barbara that the first available day is January 19 and he is available. We will discuss the number of users during the presentation
+            Clive/Andy,
+            Please let me know if January 19 morning works for you. That would be best. If not,, please let me know what other dates work, or when you are available.
+            Thank you
+            John
+
+  - subject: "RE: Thank you"
+    messages:
+      - date: 2017-02-16 10:46am
+        from: john
+        to: clive
+        message: |
+          Hi Clive,
+          I talked again with Barbara this week. She again said that she likes our system and would like to work with us. In the beginning she will just have 5 users, during the first year increasing to 10. Her company ACME is providing widgets services for small size companies in Canada using her own in-house system. Currently ACME has approximately 400 client companies with total about 15,000 employees. ACME client companies are submitting requests by email, mail, phone or online. Currently no more than 5% of ACME clients need online access to the system for entering the requests and viewing the reports. During the meeting with Barbara at ABC on January 30 with Joe, Andy and yourself we didn’t see any problems that would prevent our system to provide what ACME needs. There will be some customisation required: dashboard providing the overview of the payrun status for all ACME clients. We also need to resolve licensing for those ACME clients who will require online access (very limited – some reports, timesheet entry and maybe limited employee maintenance). I discussed this with Gord and he was going to talk about the licensing fees with Shawn and with you. Security is a big concern for ACME, but the ABC system should be able to handle the security requirements. Regarding Go-Live: ACME does not plan to start with all clients right away, initially starting with no more than 10 clients. I think that our contract with ACME should include the following:
+            • Modules:
+              ◦ Widgets
+              ◦ General Ledger
+            • ACME Users
+            ◦ 5 users
+            • Client Users
+            ◦ ??? – this is where we need to determine the licensing and prices
+            ◦ Maybe we can say something like this: “The customer has the option to purchase additional “client user” licenses at the “???” price
+            • Software modification
+            ◦ Customized Dashboard
+
+          ACME contact information:
+
+  - subject: ACME- Widgets system presentation by ABC
+    messages:
+      - date: 2016-12-30 12:47pm
+        from: john
+        to: barbara
+        message: |
+          Hi Barbara,
+          I would like to send you a quick update regarding next steps and the demonstration of our Widgets part of the system to you.
+          1. I will be working with our expert Widgets consultants to analyze the document with your requirements that you gave me. We will prepare a demonstration of our Widgets system to you based on this analysis. I believe that we should have the analysis ready in the first half of January 2017.
+          2. We will have a meeting or a call with you prior to the demonstration to determine your user count in order to give you the appropriate proposal.
+          3. When ready, we will do a demonstration of our solution at ABC’s office and discuss any potential
+          customization. We will have to arrange a time based on your availability and on the availability of our Widgets consultants.
+          Please email me or call me any time if you have any comments or questions.
+          Thank you very much for your consideration.
+          Best regards,
+          John
+      
+  - subject: "RE: Acme Cloud Sales Order - 030117 - No Service Levels.docx"
+    messages:
+      - date: 2017-03-07 10:47pm
+        from: matt
+        to: shawn
+        message: |
+          Working on the revised language now. An issue is that we don’t know the actual number of reports until the year is over, but they have to pay for the next year by the last day of the year. So if there is a credit, we won’t know the credit amount until after they are supposed to have already paid and we won’t be able to give an accurate invoice 60 days prior to the end of the year.
+          Perhaps we have to add another term on the SO that says notwithstanding the MSA, we will issue the invoice 60 days before the end of the Term, but it will be subject to any credits that will be determined after the end of the year and, provided that they have notified us of their intention to renew, their payment for the next term won’t be due until 10 days into that new term as opposed to on the last day of the expiring term?
+          Let me know what you think.
+          Thanks.
+          Matt
+        
+  - subject: "FW: ACME- ABC system for Widgets services"
+    messages:
+      - date: 2017-03-09 9:47am
+        from: gord
+        to: john
+        message: |
+          John,
+          Just so you know, I spoke to this lady, but it doesn’t look like she generates enough revenue to pay for any system at all. Based on the numbers she gave me, she is only generating $200,000 per year TOTAL. We would need any contract to do what she wants us to do to be at least $5000/month. It doesn’t look like there’s much chance of that – unless she’s misrepresenting her revenues. It’s in Shawn’s hands to see if he can get her to sign up at that price. BTW – for $5000/month she would be getting no mods, and she would be responsible for setting up the Security within a single Tenant to make it work herself.
+          Thanks,
+          Gord
+          
+  - subject: "Re: widgets"
+    messages:
+      - date: 2017-05-14 02:04pm
+        from: shawn
+        to: barbara
+        message: |
+          Barbara -
+          We cannot combine the services estimates with the license fees on the sales order. As mentioned during our discussions last week, our fiscal year end is May 31st and the accommodations we have been making to you along the way regarding terms and license fees, have been based upon the premise that we will have a signed sales order by may 31st. In the meantime I will urge Joe to produce the services estimate for the reports and implementation but again, it will be separate from the sales order.
+          Thanks,
+          Shawn Fine
+      - date: 2017-05-25 12:35pm
+        from: shawn
+        to: barbara
+        message: |
+          Barbara –
+          Attached, please find the report reconciliation analysis between the reports you provided and ABC’s standard reports. You’ll notice that there are three (not four) reports that would need to be developed – and one of them is the report format. Please review the other reports for comparison and indicate if additional modifications are required to the ABC Standard reports. As mentioned – the estimate for new reports is $6000/report. I would like to send you the standard Sales Order for signature. Please advise.
+          Best,
+
+  - subject: "ACME-ABC Agreement and Documents"
+    messages:
+      - date: 2017-05-29 02:27pm
+        from: shawn
+        to: barbara
+        message: |
+          Barbara –
+          Thank you for the signed Sales Order and welcome to the ABC family.
+          Joe has evaluated the additional reports and has commented that they are deposit and EFT files. I will have the services team contact you to begin the implementation process. Thank you for your business and we look forward to our partnership.
+          Best,
+
+      - date: 2017-06-08 1:13pm
+        from: barbara
+        to: shawn
+        message: |
+          Hi Shawn,
+          
+          I just wanted to thank you for all your hard work.
+          
+          I really look forward to working with you.
+          
+          Best,
+          
+          Barbara

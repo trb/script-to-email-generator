@@ -1,5 +1,7 @@
 *.iml
 script-to-email/bin/idea
+input/
+output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

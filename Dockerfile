@@ -1,6 +1,7 @@
 FROM python
 
-COPY script-to-email/* /app/
+COPY script-to-email/lib/ /app/lib/
+COPY script-to-email/__init__.py script-to-email/script-to-email.py script-to-email/requirements.txt /app/
 
 WORKDIR /app
 
@@ -8,7 +9,7 @@ VOLUME ["/app"]
 VOLUME ["/scripts"]
 VOLUME ["/output"]
 
-RUN apt-get update && apt-get full-upgrade -y
-RUN pip install -r /app/requirements.txt
+RUN apt-get update && apt-get full-upgrade -y \
+ && pip3 install -r /app/requirements.txt
 
-ENTRYPOINT ["python", "script-to-email.py", "/scripts"]
+ENTRYPOINT ["python3", "script-to-email.py", "/scripts"]

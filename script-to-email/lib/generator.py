@@ -11,7 +11,6 @@ from .message import Message, EmbeddedMessage
 
 from .script import Script
 
-
 DATE_FORMAT = "%a, %b %d, %Y at %I:%M %p"
 
 
@@ -22,24 +21,26 @@ def random_string(n):
 def messy_headers():
     return {
         "Received": "by 2002:a17:90b:34c:0:0:0:0 with SMTP id "
-        "fh12csp241259pjb; {} ("
-        "PST)".format(datetime.datetime.now().strftime("%a, " "%d %b %Y " "%H:%M:%S")),
+                    "fh12csp241259pjb; {} ("
+                    "PST)".format(datetime.datetime.now().strftime("%a, " "%d %b %Y " "%H:%M:%S")),
         "X-Google-Smtp-Source": random_string(76),
         "ARC-Seal": "i=1; a=rsa-sha256; t={}; cv=none;"
-        "d=google.com; s=arc-20160816;"
-        "b={}==".format(random.randint(1000000, 10000000), random_string(128)),
+                    "d=google.com; s=arc-20160816;"
+                    "b={}==".format(random.randint(1000000, 10000000),
+                                    random_string(128)),
         "ARC-Message-Signature": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;"
-        "h=mime-version:subject:references:in-reply-to:message-id:to:from:date"
-        ":dkim-signature;"
-        "bh={}=;"
-        "b={}==".format(random_string(20), random_string(256)),
+                                 "h=mime-version:subject:references:in-reply-to:message-id:to:from:date"
+                                 ":dkim-signature;"
+                                 "bh={}=;"
+                                 "b={}==".format(random_string(20),
+                                                 random_string(256)),
         "X-Mailer": "WebService/1.1.19797 YMailNorrin",
         "X-IncomingTopHeaderMarker": "OriginalChecksum:844D73727AE689FF3C9272E149DC8A162DE0376CF0450AEBD1E8B6C80A0D789C;UpperCasedChecksum:E6AB3BB83FE007AB4197C0B8D593F8E753D5CA210CB25CF09BEBFB337F586FB4;SizeAsReceived:6543;Count:41",
         "DKIM-Signature": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;"
-        "s=selector1;"
-        "h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;"
-        "bh={};"
-        "b={}".format(random_string(50), random_string(256)),
+                          "s=selector1;"
+                          "h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;"
+                          "bh={};"
+                          "b={}".format(random_string(50), random_string(256)),
         "X-MS-Exchange-AntiSpam-MessageData-Original-0": random_string(512),
         "X-MS-Exchange-Transport-CrossTenantHeadersStamped": random_string(32),
         "X-MS-Exchange-Organization-ExpirationStartTime": datetime.datetime.now().isoformat(),
@@ -82,7 +83,8 @@ def make_text_content(message: Message, start_date: datetime.datetime):
     embedded_messages = []
     for embedded_message in message.embedded_messages:
         embedded_messages.append(
-            replyify(embedded_message, date_generator.next(embedded_message.date))
+            replyify(embedded_message,
+                     date_generator.next(embedded_message.date))
         )
 
     formatted_messages = []
@@ -102,7 +104,7 @@ def make_text_content(message: Message, start_date: datetime.datetime):
 
 
 def make_html_content(
-    message: Message, start_date: datetime.datetime, messy: bool = False
+        message: Message, start_date: datetime.datetime, messy: bool = False
 ):
     date_generator = IncrementalDateGenerator(start_date)
 
@@ -112,12 +114,11 @@ def make_html_content(
             '<div style="border-left: 3px grey solid; padding-left: 5px; '
             "font-size: 14px; font-weight: normal; display: block; cursor: "
             "inherit; background-position: center"
-            '">{'
-            "}</div>"
+            '">{}</div>'
         )
     else:
         p = "<p>{}</p>"
-        div = '<div style="border-left: 3px grey solid; padding-left: 5px">{' "}</div>"
+        div = '<div style="border-left: 3px grey solid; padding-left: 5px">{}</div>'
 
     html_messages = []
     for embedded_message in message.embedded_messages:
@@ -125,7 +126,7 @@ def make_html_content(
             date_generator.next(embedded_message.date).strftime(
                 "%a, %b %d, %Y at %I:%M %p"
             ),
-            message.from_.email_address
+            embedded_message.from_.email_address
         )
         html = p.format(html)
         html += embedded_message.html
@@ -137,8 +138,9 @@ def make_html_content(
         wrapped_messages.append(wrapper.format(embedded_message))
         wrapper = div.format(wrapper)
 
-    return "".join(wrapped_messages), start_date
-
+    html_body = "".join([message.html,
+                         "<br /><br />"] + wrapped_messages)
+    return '<div style="width: 520px;">{}</div>'.format(html_body), start_date
 
 class Generator:
     def __init__(self, script: Script):
@@ -185,10 +187,12 @@ class Generator:
             if message.from_:
                 email["From"] = message.from_.email_address
             if message.to:
-                email["To"] = ", ".join([party.email_address for party in message.to])
+                email["To"] = ", ".join([party.email_address for party in
+                                         message.to])
 
             if message.embedded_messages:
-                message_text, new_date = make_text_content(message, date_generator.date)
+                message_text, new_date = make_text_content(message,
+                                                           date_generator.date)
                 message_html, _ = make_html_content(
                     message, date_generator.date, self.script.settings.messy
                 )

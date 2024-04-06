@@ -1,25 +1,25 @@
-Message-ID: <WGR65R2UMXFFG6MPZ92Y6SDGVYF0K49PKTC894ARQYVK6440@INFRA1.EMAIL.APP.GOODFACT.CO>
+Message-ID: <4ZQJJZU1ECG1B9ZEI91MVGKTSDAAR1DTRVCXMP4QU968YSCX@INFRA1.EMAIL.APP.GOODFACT.CO>
 Subject: Order for Pine model playground set
 From: Sue Smith <sue@example.com>
 To: Alex Doe <alex@toycorp.example.com>
 Date: Wed, 18 May 2022 08:54:00 -0000
-Content-Type: multipart/mixed; boundary="===============6194359333518168743=="
-Received: by 2002:a17:90b:34c:0:0:0:0 with SMTP id fh12csp241259pjb; Tue, 14
- Feb 2023 23:27:21 (PST)
+Content-Type: multipart/mixed; boundary="===============0087007057308973081=="
+Received: by 2002:a17:90b:34c:0:0:0:0 with SMTP id fh12csp241259pjb; Sat, 06
+ Apr 2024 21:34:36 (PST)
 X-Google-Smtp-Source:
- 96SJ9WQDLAODSOIPJ65TI445DZRLX3E1SXBZA6HG5HVPHXIADOUYRQOF760DIOHWJ7Q35BPJPMZ1
-ARC-Seal: i=1; a=rsa-sha256; t=8624621; cv=none;d=google.com; =?utf-8?q?s=3D?=
- =?utf-8?q?arc-20160816=3Bb=3DVUMD12Y7P6RG9XWGERSYDP8QDZ4X8YU176I66ZHNCB63IW?=
- =?utf-8?q?DQO6KV9R3TSVN68V3SGQXRXR95VOGWVKEJA7O4PC4DHJCQB8VKFB9HVM1VMT0G6L7?=
- =?utf-8?q?MAPGXQ8A7Y4U452Y9=3D=3D?=
+ YS1AQ2Y62HUL7L7TX2KKC9JPBEF7ME0CUFMOLIHXTRS81VBKGUHATYXYEPDWZEULCDTQHE1BVZD2
+ARC-Seal: i=1; a=rsa-sha256; t=8283543; cv=none;d=google.com; =?utf-8?q?s=3D?=
+ =?utf-8?q?arc-20160816=3Bb=3D4201NYP084WNJ0HPT8QFDS2WO9UVVAOVP33WRCZ1F9P8DD?=
+ =?utf-8?q?DU1ESKJ1NSAHFUPJD8XWBZXOHU1FDMU22PHHYZE8XAR2YBJ68OO4F38U9ZPVOB7LO?=
+ =?utf-8?q?6PTXUMTTENBLSO5HI=3D=3D?=
 ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; 
  =?utf-8?q?s=3Darc-20160816=3Bh=3Dmime-version=3Asubject=3Areferences=3Ain-r?=
- =?utf-8?q?eply-to=3Amessage-id=3Ato=3Afrom=3Adate=3Adkim-signature=3Bbh=3DW?=
- =?utf-8?q?291UBE0FLDDT1M32R6F=3D=3Bb=3DEQX8DPXYJBJMUKHZ27PROZ86HE7DRUBPNJU9?=
- =?utf-8?q?A9RFUK9D94TKXRFVZ4S3FK5OMBSK3FVKKN6KX4H2SBCIV5GYELS5HQDO7MLTXRJ0D?=
- =?utf-8?q?YER9QQKM3ECODBL64YHJ6RCRLY9Q2ZUPEPKV3O4TYE1ZVEXZ2HATC17MKT8BW7Z8Z?=
- =?utf-8?q?VMNQX32WVZX48RSABE4FSY9QQ1Q8O4XJ4NP8UKMOFZHETDYOUAOMLLPIYZAUDFV7Q?=
- =?utf-8?q?U7X8OIR9U7ZF25RULHLKYNFWK=3D=3D?=
+ =?utf-8?q?eply-to=3Amessage-id=3Ato=3Afrom=3Adate=3Adkim-signature=3Bbh=3D0?=
+ =?utf-8?q?JX84P2O9PZ7EIXDB7PB=3D=3Bb=3DV399SOP5OI1I7FN3HMFE33AAU6I8TB9MBJPG?=
+ =?utf-8?q?Q1OFPOO1WA0A7NS8GOX8E95X9KLMM5ANZBF1M68HLIVUOT6Q01LX8IDUZM64DW1NC?=
+ =?utf-8?q?4469KKLLZFIC4VN2EB45R8DE73Z6JWBV0PG6GIJGL6M1B5L8ND5JOYHJTXDWTKKSB?=
+ =?utf-8?q?LZMG599HEX7Q8SO9V2RZWT6BNEWOUWZL84C57EBXLY0JNJ8UG3HY1W89448MLWW5P?=
+ =?utf-8?q?0LM5FI1Q61K6RDJSN5K097DPR=3D=3D?=
 X-Mailer: WebService/1.1.19797 YMailNorrin
 X-IncomingTopHeaderMarker: =?utf-8?q?OriginalChecksum=3A844D73727AE689FF3C92?=
  =?utf-8?q?72E149DC8A162DE0376CF0450AEBD1E8B6C80A0D789C=3BUpperCasedChecksum?=
@@ -28,48 +28,48 @@ X-IncomingTopHeaderMarker: =?utf-8?q?OriginalChecksum=3A844D73727AE689FF3C92?=
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; =?utf-8?q?d=3Dhotmail?=
  =?utf-8?q?=2Ecom=3Bs=3Dselector1=3Bh=3DFrom=3ADate=3ASubject=3AMessage-ID?=
  =?utf-8?q?=3AContent-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3Bbh?=
- =?utf-8?q?=3DBF1PU22JHCW2R49MSBJ9KU39RBYJMEYF62S955D772XWDBX9JO=3Bb=3D4CEX9?=
- =?utf-8?q?KA008ABZA4O9M6M2NAQ3WXEQCQNGROXQAIWKPU5OFO8J0L6Y0PB57CYXDN8W1RBDN?=
- =?utf-8?q?2DGZAQMYXTBTZYJ51R5FWHS7K8B0TH7UXW9NMCUX7G3WA6A8VX6O18U0LHE1I2MYX?=
- =?utf-8?q?59PSIIQTQRI25ZNYHYSRT66VB75T64PTCEKC39G1ISBMWDBJH89MB67T6BZ29YKMG?=
- =?utf-8?q?KR8S8NNXA51IKJSSAILD6MFGQTQ1X0ZTW8QKC937U2OGH1WR9XME3AK8?=
-X-MS-Exchange-AntiSpam-MessageData-Original-0: =?utf-8?q?0JK671LL7QHQYYL5ARD?=
- =?utf-8?q?2PTLW2JPZHS589RH9Z853LHF7MKWIIPTI4T01CKY8PTUN1GQ9USNA9D06RSQQRA68?=
- =?utf-8?q?9BWB7AKUBAN6421ORFZ9GBD5HPEKGFIFFR31TG8IJUEMRT46FRRXSJ269GEQ4BG0H?=
- =?utf-8?q?Z947SFLZW793SIZOSRM9Y5YJISQZK6FTE6LK8TW2S51B2JX708CLJKSMOJXGQIH7K?=
- =?utf-8?q?WZF8098CYN2O238LVWM8VUEN9HMJUPUQKXP8MV19I4B36T8QY6WI1PFAD440T0NAV?=
- =?utf-8?q?UZPMKC7YO45TPP9Q12A20JRSHGQ9NMGB7ZA7FAG735GYOVMOKVBZYOAGC1ISIOXVP?=
- =?utf-8?q?CR7IUT5WRW7N62MF865NJLH5TMYIWEZI1CZRIG6K3R2G26TWCSD5BD33R978FJ877?=
- =?utf-8?q?WGV9KPXQPBUT0C8GC4LYJGO84PAWG6DDE4HFA82K5264PA0GDMNNRS4S15C54647V?=
- =?utf-8?q?WE0VFX0EJ4ERAR7GRWTRIYCZNX49V9QOZY0FA8?=
+ =?utf-8?q?=3DJYFV5R1IK33EQYAOX7EUSC103KN1ESWLO5EMWTRYZHMCWCDF6E=3Bb=3DHH8E8?=
+ =?utf-8?q?3I1H7AZM7IN4I7BB6DWYHJO4J2PC1CS0L4AALNTQ1X6CSF4WAYWEGHPLW60WUHM7H?=
+ =?utf-8?q?XY3FZZMVOVB4K4FNF9E5HNSZOZ06Z3OX6LAB2IXAFCCII8PKJUUSM5AOM6CFQC1ZS?=
+ =?utf-8?q?TYQ0UFYTLCXXRRRYZKIKLTQ0S8K7ULXDIYPPWXHATTIL0KBAKJVN8171W6BH5EV91?=
+ =?utf-8?q?BV9PSUY26L3SVT7WAT653YL3W5RXA7JOGV9YTFLUQRFVCKRR6ZHOH1FW?=
+X-MS-Exchange-AntiSpam-MessageData-Original-0: =?utf-8?q?7EG1XWTYB2TFVURY5VG?=
+ =?utf-8?q?ID2SSECLWRB7VRLW130QTRF2MKH4D9EJRYYICKOX97GE0M1D2VD699KT8A2CN0PM7?=
+ =?utf-8?q?8JRXD2YHMF5VBE0WRBJTJBSEY6TQS8ULQLNW35VQD0S7JAH0BSFK6O518HJUPO3NR?=
+ =?utf-8?q?R4N3LV9LC4VP8TJMNTQMVQKX94ERONMT156ZPZ9J9F5G7Q7ZJPCVP30P4AGO9HGS2?=
+ =?utf-8?q?1NE13Q3OFVQMA441PLI8KNNIQSWHJEIUJQNHIAS66LDLK0YAANT06SQLOFLBRZJPL?=
+ =?utf-8?q?I7NHVFZQHELX11EYKMI7WTMZPQI0PJDPEA1BL4W1NTZEPD96SIB5F06RMTEVN1417?=
+ =?utf-8?q?I1XYF54WMXEOW8C5Y67WH4KKZQK99E2QLI1XDPQ7VXZQ1AKTL49QSFKSGL9CCYWA0?=
+ =?utf-8?q?FW0AUZ9VUMJ7T4MUZ84POSYKXOAE8JZNHHWAIL1C16TLOKDRZO4QZK0U0DM0LHCU1?=
+ =?utf-8?q?NN6QC4TS5CL2GDHZORQRI5A9G9FNY0PCOV6RVI?=
 X-MS-Exchange-Transport-CrossTenantHeadersStamped:
- ZIPL1JNLSPECB0LYLZOR7J00PXADSR8D
-X-MS-Exchange-Organization-ExpirationStartTime: 2023-02-14T23:27:21.858947
+ USW1MKYVSKWG479PQKXLKDDSVV7KIZF2
+X-MS-Exchange-Organization-ExpirationStartTime: 2024-04-06T21:34:36.488192
 X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
 X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
 X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
 X-MS-Exchange-Organization-Network-Message-Id:
- 1Q9NVI366PACJN193L95RIY721FV8Y2Q
-X-Message-Info: 23UGE88ZVLYU8E3ZXO2PB6CKW9JMGREOQD16GLJWA0XUDZ4GYG
-X-Message-Delivery: I4EFPBT3UZUZOMB1KRO2XXBY9HWW0ZYM
-X-Microsoft-Antispam-Message-Info: =?utf-8?q?VZ1NPVZDJH9KOSBCHBLJ4M0D8WDAT23?=
- =?utf-8?q?CPUFY3T0ESDOGHB9SU83UKNWXBFHAOY4267WOEQXVXGSJ7ESPHAR5E7QE7JS8RU8T?=
- =?utf-8?q?G3GWJH8L4PI21CX9MYKDDXMIG977XH327C4GZ78TZU3R5BE6VOPQ1EXKQKWGTKVKK?=
- =?utf-8?q?O8JWF23BSUNQQPU6XOXK43TTJCKVH4MUG336LE31UT6TX8J8CCOWGWKHOSYMY475O?=
- =?utf-8?q?69N5PWD5A9KWQDV1FA9N3PGJ8DUJEV542ORR3SNT7ZI0B7ENOQBF25WKP2Y7VIU0N?=
- =?utf-8?q?U99JJRKKR1JFB5UNE419R6MCQHWTSYEESWAU6NTJW1S449A489M8GOGKRXUOYRXH9?=
- =?utf-8?q?4W6ZQF2HE914RTOITE3XJG24BYCV3W8Y791OX0ZL1VOM3F9R2MF177Q065AQ4F8GB?=
- =?utf-8?q?VWM5YMDNIGX2M3I5RBN8ITFYU5HCS2D89XYZO3SEHKZ18XFKRHY2II8NMPLUPHBCM?=
- =?utf-8?q?5SLXJ96CRHDNT1UI4FUZ7ZF4IR?=
+ ZNNYE6I3PLFPP92DJIK0EGUXUIO7LI3V
+X-Message-Info: K845DC5AV3J6MR78X517WB6SHGM4XQLYC0RNQ9SNVIHRQXCFJW
+X-Message-Delivery: C90WRIZPOYTLRRJ6BD4BB717RO31891E
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?E37XQO7DRDCQLBTI5YG858UJ22D01WU?=
+ =?utf-8?q?VAQ4BQWJS9NETQ0WZ2L45020U78II1TBG4Y9T5O48HKG87TK9Y7AIHPI51AYG7IYO?=
+ =?utf-8?q?AU5NH8IN7JBBNJH6AW2M8TQ4ESRLE89W1AIMLDRI4Q34E36JY20YCJ6DDRJXGCM6I?=
+ =?utf-8?q?OKQMW66WCIJLRVCECL5723EKWBUXVY4C53KR1F0AF9DEFJN5QHO1KHJC8ZHZ6VG89?=
+ =?utf-8?q?VR94OT7S4TSN3Q92SG2PU0DFM1BY2CWL92FUOFUNAI9DKY0DAZX00H94EMIHVRWQY?=
+ =?utf-8?q?SGUT6XPDH981GWS46N2MQ1RN8TO99JQGDNZYUVO4J3O2VTYYCQDQJDIJACB8R3DE3?=
+ =?utf-8?q?FT46VD89MDA5536BVRKLFLWKV1KOGYXFIK6OY5YI2IOPGKYTRJ4DHCKIPM6T1BMDZ?=
+ =?utf-8?q?F9NWP6SRA2U1MQL7VZIB5AHT9PLKT0Q3TOKR84GU8A6WXXU2GAMMY3EGZ7FQEWEL9?=
+ =?utf-8?q?P4YWE228VT1QA78UACUZ2ZZBG2?=
 X-MS-Exchange-CrossTenant-AuthAs: Anonymous
 X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
 X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.0401855
 
---===============6194359333518168743==
+--===============0087007057308973081==
 Content-Type: multipart/alternative;
- boundary="===============4689860223157777655=="
+ boundary="===============0479136567917642173=="
 
---===============4689860223157777655==
+--===============0479136567917642173==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 MIME-Version: 1.0
@@ -134,18 +134,36 @@ Sent from my iphone
 >>> --
 >>> Sent from my iphone
 
---===============4689860223157777655==
+--===============0479136567917642173==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 MIME-Version: 1.0
 
-<div style=3D"border-left: 3px grey solid; padding-left: 5px; font-size: 14px=
-; font-weight: normal; display: block; cursor: inherit; background-position: =
-center"><p style=3D"white-space: pre; text-align: left, font-family: sans; fo=
-nt-size: 14px; background-color: inherit; cursor: inherit">On Mon, May 16, 20=
-22 at 08:54 AM Sue Smith <sue@example.com> wrote:<br /></p><p data-attr-gen=
-=3D"invalid"; style=3D"display: block; white-space: pre; text-align: left; fo=
-nt-size: 14px; font-weight: inherit">Hi Alex,</p>
+<div style=3D"width: 520px;"><p data-attr-gen=3D"invalid"; style=3D"display: =
+block; white-space: pre; text-align: left; font-size: 14px; font-weight: inhe=
+rit">Hi Alex,</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">please see the attached =
+PDF for details on what we look for in the
+customization. Can you give us an idea of the cost and when we
+can expect delivery?</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Best,</p>
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit">Sue
+</p>
+<br />
+<p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
+-align: left; font-size: 14px; font-weight: inherit"><span data-attr-gen=3D"p=
+rocessed"; style=3D"display: inline; white-space: pre; text-align: left; font=
+-size: 12px; font-weight: normal">Sent from my iphone</span></p><br /><br /><=
+div style=3D"border-left: 3px grey solid; padding-left: 5px; font-size: 14px;=
+ font-weight: normal; display: block; cursor: inherit; background-position: c=
+enter"><p style=3D"white-space: pre; text-align: left, font-family: sans; fon=
+t-size: 14px; background-color: inherit; cursor: inherit">On Mon, May 16, 202=
+2 at 08:54 AM Sue Smith <sue@example.com> wrote:<br /></p><p data-attr-gen=3D=
+"invalid"; style=3D"display: block; white-space: pre; text-align: left; font-=
+size: 14px; font-weight: inherit">Hi Alex,</p>
 <p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
 -align: left; font-size: 14px; font-weight: inherit">that sounds good to me. =
 I'll talk to my husband and we'll get you some
@@ -166,9 +184,9 @@ weight: normal; display: block; cursor: inherit; background-position: center"=
 x; font-weight: normal; display: block; cursor: inherit; background-position:=
  center"><p style=3D"white-space: pre; text-align: left, font-family: sans; f=
 ont-size: 14px; background-color: inherit; cursor: inherit">On Fri, May 13, 2=
-022 at 10:54 AM Sue Smith <sue@example.com> wrote:<br /></p><p data-attr-gen=
-=3D"invalid"; style=3D"display: block; white-space: pre; text-align: left; fo=
-nt-size: 14px; font-weight: inherit">Hi Sue,</p>
+022 at 10:54 AM Alex Doe <alex@toycorp.example.com> wrote:<br /></p><p data-a=
+ttr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text-align: l=
+eft; font-size: 14px; font-weight: inherit">Hi Sue,</p>
 <p data-attr-gen=3D"invalid"; style=3D"display: block; white-space: pre; text=
 -align: left; font-size: 14px; font-weight: inherit">thank you for reaching o=
 ut to us. We're certainly able to produce a
@@ -227,11 +245,11 @@ able to offer some customizations?
 -align: left; font-size: 14px; font-weight: inherit"><span data-attr-gen=3D"p=
 rocessed"; style=3D"display: inline; white-space: pre; text-align: left; font=
 -size: 12px; font-weight: normal">Sent from my iphone</span></p></div></div><=
-/div>
+/div></div>
 
---===============4689860223157777655==--
+--===============0479136567917642173==--
 
---===============6194359333518168743==
+--===============0087007057308973081==
 Content-Type: application/pdf
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="PineCustomization.pdf"
@@ -2517,4 +2535,4 @@ IAowMDAwMTIxNTI4IDAwMDAwIG4gCjAwMDAxMjc4MDEgMDAwMDAgbiAKMDAwMDEyODA1MyAwMDAw
 MCBuIAowMDAwMTI4NTMzIDAwMDAwIG4gCnRyYWlsZXIKPDwvU2l6ZSAzOAovUm9vdCAxNyAwIFIK
 L0luZm8gMSAwIFI+PgpzdGFydHhyZWYKMTI5MDQ0CiUlRU9G
 
---===============6194359333518168743==--
+--===============0087007057308973081==--

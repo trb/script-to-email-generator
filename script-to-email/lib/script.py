@@ -53,13 +53,13 @@ class Script:
                     attachments = []
                     for attachment in message["attachments"]:
                         if attachment["file"].startswith("/"):
-                            path = attachment["file"]
+                            attachment_path = attachment["file"]
                         else:
-                            path = os.path.realpath(
+                            attachment_path = os.path.realpath(
                                 os.path.join(os.path.dirname(path), attachment["file"])
                             )
                         attachments.append(
-                            Attachment(mimetype=attachment["mimetype"], file=path)
+                            Attachment(mimetype=attachment["mimetype"], file=attachment_path)
                         )
                     del message["attachments"]
 
